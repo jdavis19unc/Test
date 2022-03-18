@@ -19,20 +19,30 @@ h1 {
   padding: 10px;
   background-color: rgb(55, 139, 114);
 }
-#insert {
-  float: left;
-  width: 400px;
+
+.splitscreen {
+  display: flex;
 }
-#findtar {
-  float: left;
-  width: 500px;
+.splitscreen .left {
+  flex: 1;
 }
+.splitscreen .right {
+  flex: 1;
+}
+.splitscreen2 {
+  display: flex;
+}
+.splitscreen2 .left {
+  flex: 1;
+}
+.splitscreen2 .right {
+  flex: 1;
+}
+
 #settarfps {
-  float: right;
   width: 1800px;
 }
 
 #fillList {
   width: 1800px;
-  float: right;
 }
